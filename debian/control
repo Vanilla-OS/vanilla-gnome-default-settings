@@ -23,7 +23,6 @@ Package: vanilla-gnome-default-settings
 Architecture: all
 Pre-Depends: gnome-session
 Depends: ${misc:Depends},
-         gnome-themes-standard,
          libglib2.0-bin
 Recommends: ubuntu-gnome-wallpapers
 Breaks: ubuntu-gnome-wallpapers-xenial (<< 16.10.1),
