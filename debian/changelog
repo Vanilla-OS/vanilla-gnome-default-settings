@@ -1,3 +1,9 @@
+ubuntu-gnome-default-settings (23.04.1vanilla3) lunar; urgency=medium
+
+  * update to 23.04
+
+ -- Mirko Brombin <send@mirko.pm>  Sun, 26 Feb 2023 18:41:00 +0530
+
 ubuntu-gnome-default-settings (22.10.1vanilla3) kinetic; urgency=medium
 
   * update and add vanilla gsettings
