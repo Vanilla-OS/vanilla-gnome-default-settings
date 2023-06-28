@@ -1,33 +1,16 @@
-Source: ubuntu-gnome-default-settings
-Section: x11
+Source: vanilla-gnome-default-settings
+Section: gnome
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Build-Depends: debhelper-compat (= 12), 
-Standards-Version: 4.5.0
-Vcs-Bzr: https://code.launchpad.net/~ubuntu-gnome-dev/ubuntu-gnome-default-settings/ubuntu
-
-Package: ubuntu-gnome-default-settings
-Architecture: all
-Section: oldlibs
-Priority: optional
-Depends: ${misc:Depends},
-         ubuntu-settings
-Recommends: ubuntu-gnome-wallpapers
-Description: default settings for the Ubuntu desktop (transitional package)
- This is a transitional package depending on the default Ubuntu settings.
- .
- Install vanilla-gnome-default-settings for settings similar to what
- were provided by Ubuntu GNOME before it was discontinued.
+Maintainer: Mirko Brombin <send@mirko.pm>
+Standards-Version: 4.6.0
+Homepage: https://github.com/Vanilla-OS/vanilla-gnome-default-settings
+Vcs-Browser: https://github.com/Vanilla-OS/vanilla-gnome-default-settings
+Vcs-Git: https://github.com/Vanilla-OS/vanilla-gnome-default-settings.git
+Rules-Requires-Root: no
 
 Package: vanilla-gnome-default-settings
 Architecture: all
-Pre-Depends: gnome-session
-Depends: ${misc:Depends},
-         libglib2.0-bin
-Recommends: ubuntu-gnome-wallpapers
-Breaks: ubuntu-gnome-wallpapers-xenial (<< 16.10.1),
-        ubuntu-gnome-default-settings (<< 17.10.2)
-Replaces: ubuntu-gnome-wallpapers-xenial (<< 16.10.1),
-        ubuntu-gnome-default-settings (<< 17.10.2)
-Description: default settings for the Ubuntu GNOME desktop
- This package contains the default settings used by Ubuntu GNOME.
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Vanilla OS GNOME default settings
+ This package contains the default settings for Vanilla OS GNOME.

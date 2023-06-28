@@ -3,14 +3,14 @@
 ###################
 
 [org.gnome.shell]
-favorite-apps = [ 'org.vanillaos.Installer.desktop', 'org.gnome.Epiphany.desktop', 'org.gnome.Photos.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'yelp.desktop', 'org.gnome.Console.desktop' ]
+favorite-apps = [ 'org.vanillaos.Installer.desktop', 'org.gnome.Epiphany.desktop', 'org.gnome.Photos.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'yelp.desktop' ]
 
 [org.gnome.desktop.background]
-picture-uri = 'file:///usr/share/backgrounds/gnome/vanilla-default.webp'
-picture-uri-dark = 'file:///usr/share/backgrounds/gnome/vanilla-dark.webp'
+picture-uri = 'file:///usr/share/backgrounds/vanilla/orchid-light.svg'
+picture-uri-dark = 'file:///usr/share/backgrounds/vanilla/orchid-dark.svg'
 
 [org.gnome.desktop.screensaver]
-picture-uri = 'file:///usr/share/backgrounds/gnome/vanilla-default.webp'
+picture-uri = 'file:///usr/share/backgrounds/vanilla/orchid-light.svg'
 
 [org.gnome.desktop.sound]
 theme-name = 'freedesktop'
@@ -24,16 +24,6 @@ automatic-timezone = true
 [org.gnome.desktop.peripherals.touchpad]
 tap-to-click = true
 click-method = 'default'
-
-# for GDM/DM
-# FIXME: drop once Ubuntu move to :Ubuntu-Greeter, see LP: #1788010
-[org.gnome.desktop.interface:GNOME-Greeter]
-gtk-theme = "Adwaita"
-icon-theme = "Adwaita"
-cursor-theme = "Adwaita"
-font-name = "Cantarell 11"
-monospace-font-name = "Ubuntu Mono 13"
-font-antialiasing = 'rgba'
 
 [org.gnome.eog.ui:GNOME]
 sidebar=false
