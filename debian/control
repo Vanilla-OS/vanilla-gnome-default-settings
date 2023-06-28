@@ -3,6 +3,7 @@ Section: gnome
 Priority: optional
 Maintainer: Mirko Brombin <send@mirko.pm>
 Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 12)
 Homepage: https://github.com/Vanilla-OS/vanilla-gnome-default-settings
 Vcs-Browser: https://github.com/Vanilla-OS/vanilla-gnome-default-settings
 Vcs-Git: https://github.com/Vanilla-OS/vanilla-gnome-default-settings.git
@@ -11,6 +12,7 @@ Rules-Requires-Root: no
 Package: vanilla-gnome-default-settings
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
+         libglib2.0-bin
 Description: Vanilla OS GNOME default settings
  This package contains the default settings for Vanilla OS GNOME.

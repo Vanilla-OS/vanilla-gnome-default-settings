@@ -28,9 +28,6 @@ click-method = 'default'
 [org.gnome.eog.ui:GNOME]
 sidebar=false
 
-[org.gnome.desktop.interface:GNOME]
-monospace-font-name="Ubuntu Mono 13"
-
 [org.gnome.nautilus.icon-view:GNOME]
 default-zoom-level='standard'
 
