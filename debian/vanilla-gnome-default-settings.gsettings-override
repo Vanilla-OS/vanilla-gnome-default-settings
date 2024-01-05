@@ -6,11 +6,11 @@
 favorite-apps = [ 'org.vanillaos.Installer.desktop', 'org.gnome.Epiphany.desktop', 'org.gnome.Photos.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'yelp.desktop' ]
 
 [org.gnome.desktop.background]
-picture-uri = 'file:///usr/share/backgrounds/vanilla/orchid-light.svg'
-picture-uri-dark = 'file:///usr/share/backgrounds/vanilla/orchid-dark.svg'
+picture-uri = 'file:///usr/share/backgrounds/vanilla/petals_light.webp'
+picture-uri-dark = 'file:///usr/share/backgrounds/vanilla/petals_dark.webp'
 
 [org.gnome.desktop.screensaver]
-picture-uri = 'file:///usr/share/backgrounds/vanilla/orchid-light.svg'
+picture-uri = 'file:///usr/share/backgrounds/vanilla/petals_light.webp'
 
 [org.gnome.desktop.sound]
 theme-name = 'freedesktop'
